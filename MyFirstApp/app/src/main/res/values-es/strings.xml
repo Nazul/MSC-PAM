@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="editNombre">Escribe tu nombre</string>
+    <string name="editTelefono">Escribe tu número de teléfono</string>
+    <string name="errInvalidData">Datos inválidos</string>
+    <string name="errMissingData">Faltan datos</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="toastDataSaved">{0} ({1}) guardado</string>
+</resources>
