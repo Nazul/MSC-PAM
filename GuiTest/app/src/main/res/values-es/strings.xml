@@ -43,5 +43,13 @@
     <string name="textGender">Género</string>
     <string name="textFemale">Femenino</string>
     <string name="textMale">Masculino</string>
+    <string name="textCancel">Cancel</string>
+    <string name="textClear">Limpiar</string>
+    <string name="textConfirmClear">¿Limpiar todos los campos?</string>
+    <string name="textAllFieldsCleared">Todos los campos fueron limpiados</string>
+    <string name="textDataSaved">Nombre: {1}{0}Teléfono: {2}{0}Escolaridad: {3}{0}Género: {4}{0}Libro favorito: {5}{0}Práctica deporte: {6}</string>
+    <string name="textNo">No</string>
+    <string name="textYes">Si</string>
+    <string name="textNoFavBook">(No se ingresó un libro favorito)</string>
 </resources>
 <!-- EOF -->

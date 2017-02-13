@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~
   ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
   ~
@@ -30,130 +29,130 @@
     tools:context="mx.iteso.msc.pam2017.ms705080.guitest.MainActivity">
 
     <EditText
+        android:id="@+id/editName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editName"
-        android:hint="@string/hintName"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/hintName"
+        android:inputType="textPersonName" />
 
     <EditText
+        android:id="@+id/editPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/editPhone"
-        android:hint="@string/hintPhone"
-        android:inputType="phone"
-        android:layout_below="@+id/editName"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editName"
+        android:ems="10"
+        android:hint="@string/hintPhone"
+        android:inputType="phone" />
 
     <TextView
+        android:id="@+id/tvScholarship"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvScholarship"
-        android:text="@string/textScholarship"
-        android:textColor="@android:color/black"
-        android:layout_below="@+id/editPhone"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editPhone"
+        android:text="@string/textScholarship"
+        android:textColor="@android:color/black" />
 
     <Spinner
+        android:id="@+id/spinScholarship"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinScholarship"
-        android:layout_below="@+id/tvScholarship"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/textGender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvGender"
-        android:textColor="@android:color/black"
-        android:layout_below="@+id/spinScholarship"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rgGenders"
-        android:layout_below="@+id/tvGender"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvScholarship" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinScholarship"
+        android:text="@string/textGender"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/rgGenders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvGender"
         android:checkedButton="@+id/rbMale"
         android:orientation="horizontal">
 
         <RadioButton
-            android:text="@string/textMale"
-            android:layout_height="wrap_content"
             android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_width="wrap_content" />
+            android:text="@string/textMale" />
 
         <RadioButton
-            android:text="@string/textFemale"
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/rbFemale"
             android:layout_weight="1"
-            android:layout_width="wrap_content" />
+            android:text="@string/textFemale" />
     </RadioGroup>
 
-    <AutoCompleteTextView
+    <TextView
+        android:id="@+id/tvFavoriteBook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/actvFavBook"
-        android:layout_below="@+id/tvFavoriteBook"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/rgGenders"
+        android:text="@string/textFavoriteBook" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvFavBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvFavoriteBook" />
+
+    <CheckedTextView
+        android:id="@+id/ctvSportsPractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/actvFavBook"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
+        android:gravity="center_vertical"
+        android:text="@string/textSportsPractice" />
 
     <Button
-        android:text="@string/btnClear"
+        android:id="@+id/btnClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/btnClear"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="@string/textFavoriteBook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvFavoriteBook"
-        android:layout_below="@+id/rgGenders"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <CheckedTextView
-        android:text="@string/textSportsPractice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkedTextView"
-        android:checkMark="?android:attr/textCheckMark"
-        android:layout_below="@+id/actvFavBook"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:gravity="center_vertical" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/btnClear" />
 
-</RelativeLayout>
-<!-- EOF -->
+</RelativeLayout><!-- EOF -->
