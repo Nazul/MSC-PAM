@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">GUI Test 2</string>
+    <string name="textAlertDialog">Diálogo de Alerta</string>
+    <string name="textPopupMenu">Menú Emergente</string>
+    <string name="textShowDialog">Mostrar Diálogo</string>
+    <string name="miHelp">Ayuda...</string>
+    <string name="miMore">Más...</string>
+    <string-array name="planets">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Júpiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+    </string-array>
+    <string name="textHelpSelected">Seleccionaste el botón de Ayuda</string>
+    <string name="textMoreSelected">Seleccionaste el botón de Más</string>
+    <string name="textPlanetSelected">El planeta que seleccionaste es: {0}</string>
+    <string name="drawer_close">Cerrar panel de navegación</string>
+    <string name="drawer_open">Abrir panel de navegación</string>
+    <string name="miOption1">Opción 1</string>
+    <string name="miOption2">Opción 2</string>
+    <string name="textOption1Selected">Seleccionaste la Opción 1</string>
+    <string name="textOption2Selected">Seleccionaste la Opción 2</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnErase">Erase</string>
+    <string name="textAlertLosePhotosMedia">¡Perderás todas tus fotos y medios!</string>
+    <string name="textQuestionEraseUsbStorage">¿Borrar almacenamiento USB?</string>
+    <string name="textUsbErased">Almacenamiento USB borrado (espero que hayas respaldado primero)</string>
+</resources>
+<!-- EOF -->

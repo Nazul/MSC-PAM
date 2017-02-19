@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">GUI Test 2</string>
+    <string name="textPopupMenu">Popup Menu</string>
+    <string name="textShowDialog">Show Dialog</string>
+    <string name="textAlertDialog">Alert Dialog</string>
+    <string name="miMore">More...</string>
+    <string name="miHelp">Help...</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="textHelpSelected">You selected Help button</string>
+    <string name="textMoreSelected">You selected More button</string>
+    <string name="textPlanetSelected">The planet you selected is: {0}</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="miOption1">Option 1</string>
+    <string name="miOption2">Option 2</string>
+    <string name="textOption1Selected">You selected Option 1</string>
+    <string name="textOption2Selected">You selected Option 2</string>
+    <string name="textQuestionEraseUsbStorage">Erase USB storage?</string>
+    <string name="textAlertLosePhotosMedia">You\'ll lose all photos and media!</string>
+    <string name="btnErase">Erase</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="textUsbErased">USB storage erased (I hope you backed it up first)</string>
+</resources><!-- EOF -->
