@@ -47,5 +47,9 @@
     <string name="textAlertLosePhotosMedia">¡Perderás todas tus fotos y medios!</string>
     <string name="textQuestionEraseUsbStorage">¿Borrar almacenamiento USB?</string>
     <string name="textUsbErased">Almacenamiento USB borrado (espero que hayas respaldado primero)</string>
+    <string name="textQuestionFireMissiles">¿Lanzar misiles?</string>
+    <string name="btnFire">Lanzar</string>
+    <string name="textLaunchAborted">Lanzamiento abortado</string>
+    <string name="textMissilesLaunched">Misiles lanzados</string>
 </resources>
 <!-- EOF -->

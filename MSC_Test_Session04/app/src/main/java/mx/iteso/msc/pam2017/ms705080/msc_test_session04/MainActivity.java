@@ -20,6 +20,7 @@ package mx.iteso.msc.pam2017.ms705080.msc_test_session04;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Configuration;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
@@ -49,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mDrawerList = (ListView) findViewById(R.id.drawer);
-        //mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.planets));
         mAdapter = new ArrayAdapter<String>(this, R.layout.drawer_item, getResources().getStringArray(R.array.planets));
         mDrawerList.setAdapter(mAdapter);
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
@@ -71,20 +71,13 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-        // Popup Button
-        //Button popupButton = (Button) findViewById(R.id.popupButton);
-        //popupButton.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View v) {
-        //        Toast.makeText(getApplicationContext(), "Popup", Toast.LENGTH_SHORT).show();
-        //    }
-        //});
         // Show Dialog Button
         Button showDialogButton = (Button) findViewById(R.id.showDialogButton);
         showDialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Dialog", Toast.LENGTH_SHORT).show();
+                FireMissilesDialogFragment dlg = new FireMissilesDialogFragment();
+                dlg.show(getSupportFragmentManager(), "fire");
             }
         });
         // Alert Dialog Button

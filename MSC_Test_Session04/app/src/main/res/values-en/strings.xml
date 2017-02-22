@@ -47,5 +47,9 @@
     <string name="textAlertLosePhotosMedia">You\'ll lose all photos and media!</string>
     <string name="textQuestionEraseUsbStorage">Erase USB storage?</string>
     <string name="textUsbErased">USB storage erased (I hope you backed it up first)</string>
+    <string name="textQuestionFireMissiles">Fire Missiles?</string>
+    <string name="btnFire">Fire</string>
+    <string name="textMissilesLaunched">Missiles launched</string>
+    <string name="textLaunchAborted">Launch aborted</string>
 </resources>
 <!-- EOF -->
