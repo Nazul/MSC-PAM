@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etHintBookName" />
+
+    <TextView
+        android:id="@+id/tvSelectAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etBookName"
+        android:text="@string/tvSelectAuthor" />
+
+    <Spinner
+        android:id="@+id/spAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectAuthor" />
+
+    <TextView
+        android:id="@+id/tvSelectPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spAuthors"
+        android:text="@string/tvSelectPublisher" />
+
+    <Spinner
+        android:id="@+id/spPublishers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectPublisher" />
+
+    <EditText
+        android:id="@+id/etPublicationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spPublishers"
+        android:hint="@string/etHintPublication" />
+
+    <TextView
+        android:id="@+id/tvSelectCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPublicationName"
+        android:text="@string/tvSelectCountry" />
+
+    <Spinner
+        android:id="@+id/spCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectCountry" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spCountries"
+        android:hint="@string/etHintYear"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etYear"
+        android:onClick="btnSave"
+        android:text="@string/btnSave"
+        android:textAppearance="@android:style/TextAppearance" />
+
+</RelativeLayout><!--EOF-->

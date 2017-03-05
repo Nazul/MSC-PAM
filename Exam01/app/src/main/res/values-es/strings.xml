@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Examen 01 (ms705080)</string>
+    <string name="btnAuthors">Autores</string>
+    <string name="btnBooks">Libros</string>
+    <string name="btnQuery">Consulta</string>
+    <string name="etHintBookName">Nombre</string>
+    <string name="tvSelectAuthor">Seleccione un Autor</string>
+    <string name="spHintAuthorName">Seleccione un Elemento</string>
+    <string name="tvSelectPublisher">Seleccione una Editorial</string>
+    <string name="spHintPublisher">Seleccione un Elemento</string>
+    <string name="etHintPublication">Publicación</string>
+    <string name="tvSelectCountry">Seleccione un País</string>
+    <string name="spHintCountry">Seleccione un Elemento</string>
+    <string-array name="Authors">
+        <item>Arthur Conan Doyle</item>
+        <item>Herman Hesse</item>
+        <item>J. K. Rowling</item>
+        <item>Michael Crichton</item>
+        <item>Stephen King</item>
+        <item>Seleccione un Elemento</item>
+    </string-array>
+    <string-array name="Books">
+        <item>0|Las Aventuras de Sherlock Holmes</item>
+        <item>0|El Sabueso de los Baskervilles</item>
+        <item>0|Estudio en Escarlata</item>
+        <item>1|Lobo Estepario</item>
+        <item>1|Demian</item>
+        <item>2|Harry Potter y la Piedra Filosofal</item>
+        <item>2|Animales Fantásticos y Dónde Encontrarlos</item>
+        <item>2|Los Cuentos de Beedle el Bardo</item>
+        <item>3|Parque Jurásico</item>
+        <item>3|Rescate en el Tiempo</item>
+        <item>3|La amenaza de Andrómeda</item>
+        <item>4|El Resplandor</item>
+        <item>4|Carrie</item>
+        <item>4|Cujo</item>
+        <item>4|Eso</item>
+    </string-array>
+    <string-array name="Publishers">
+        <item>Pearson</item>
+        <item>ThompsonReuters</item>
+        <item>RELX Group</item>
+        <item>Wolters Kluwer</item>
+        <item>Penguin Random House</item>
+        <item>Seleccione un Elemento</item>
+    </string-array>
+    <string-array name="Countries">
+        <item>Alemania</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Inglaterra</item>
+        <item>México</item>
+        <item>Seleccione un Elemento</item>
+    </string-array>
+    <string name="toastToBeImplemented">Por Implementarse</string>
+    <string name="btnSave">Guardar</string>
+    <string name="etHintYear">Año</string>
+    <string name="toastBookSaved">Libro guardado</string>
+    <string name="toastInvalidData">Datos inválidos. Verifique por favor.</string>
+</resources><!--EOF-->

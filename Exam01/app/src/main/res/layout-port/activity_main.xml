@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!-- Public domain image -->
+    <!-- Ref: https://en.wikipedia.org/wiki/File:Book_icon.png -->
+    <!-- Src: https://upload.wikimedia.org/wikipedia/commons/2/2e/Book_icon.png -->
+    <ImageView
+        android:id="@+id/ivBooks"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/books" />
+
+    <Button
+        android:id="@+id/btnAuthors"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivBooks"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnAuthors"
+        android:text="@string/btnAuthors"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <Button
+        android:id="@+id/btnBooks"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAuthors"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnBooks"
+        android:text="@string/btnBooks"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <Button
+        android:id="@+id/btnQuery"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBooks"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnQuery"
+        android:text="@string/btnQuery"
+        android:textAppearance="@android:style/TextAppearance" />
+
+</RelativeLayout><!--EOF-->
