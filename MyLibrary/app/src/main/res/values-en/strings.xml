@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Mario Contreras <marioc@nazul.net>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="btnAuthors">Authors</string>
+    <string name="btnBooks">Books</string>
+    <string name="btnQuery">Query</string>
+    <string name="etHintBookName">Name</string>
+    <string name="tvSelectAuthor">Select an Author</string>
+    <string name="spHintAuthorName">Select an Item</string>
+    <string name="tvSelectPublisher">Select a Publisher</string>
+    <string name="spHintPublisher">Select an Item</string>
+    <string name="etHintPublication">Publication</string>
+    <string name="tvSelectCountry">Select a Country</string>
+    <string name="spHintCountry">Select an Item</string>
+    <string-array name="Countries">
+        <item>Germany</item>
+        <item>Spain</item>
+        <item>United States</item>
+        <item>England</item>
+        <item>Mexico</item>
+        <item>Select an Item</item>
+    </string-array>
+    <string name="toastToBeImplemented">To Be Implemented</string>
+    <string name="btnSave">Save</string>
+    <string name="etHintYear">Year</string>
+    <string name="toastBookSaved">Book saved</string>
+    <string name="toastInvalidData">Invalid data. Please verify.</string>
+    <string name="stAuthors">Authors</string>
+    <string name="stBooks">Books</string>
+    <string name="stQuery">Query</string>
+    <string name="dpdTitle">Select Date</string>
+</resources><!--EOF-->
